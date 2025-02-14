@@ -94,7 +94,7 @@
   },
   {
     "id": "B00tc4mp3r",
-    "imageUrl": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bootcamp-graduate-NYA5W6CulNQXcNj1u2YY2fqpkXD9Ty.webp",
+    "imageUrl": "/images/bootcamp-graduate-2.webp",
     "imageAlt": "An enthusiastic bootcamp graduate with styled hair and goatee, wearing a teal hoodie with 'Hello World!' text, sitting at a desk with a sticker-covered laptop and surrounded by JavaScript syntax on whiteboards",
     "title": "Bootcamp Graduate",
     "flavorText": "I copied this from ChatGPT, but I totally understand it. Well... I kind of understand it. I think.",
@@ -131,7 +131,7 @@
   {
     "id": "0v3rEng1n33r",
     "title": "The Over-Engineer",
-    "imageUrl": "/placeholder.svg",
+    "imageUrl": "/images/the-over-engineer-3.webp",
     "imageAlt": "A frantic developer at a whiteboard drawing an overly complex system diagram with microservices for every function",
     "flavorText": "Why build a simple function when you can build a distributed system with 27 microservices?",
     "power": 2,
@@ -156,7 +156,7 @@
   {
     "id": "BusF4ct0r1",
     "title": "The Single Point of Failure",
-    "imageUrl": "/placeholder.svg",
+    "imageUrl": "/images/single-point-of-failure.webp",
     "imageAlt": "A lone engineer in a cluttered cubicle fortress, refusing to share any documentation",
     "flavorText": "If I get hit by a bus, the entire company goes under. Actually, maybe I like that power…",
     "power": 4,
@@ -183,7 +183,7 @@
   {
     "id": "C5SZ34l0t",
     "title": "CSS Zealot",
-    "imageUrl": "/placeholder.svg",
+    "imageUrl": "/images/css-zealot-2.webp",
     "imageAlt": "A developer meticulously adjusting a design with pixel rulers and color swatches everywhere",
     "flavorText": "If it's not pixel-perfect, it's practically broken. #JustOneMore!important",
     "power": 2,
@@ -210,7 +210,7 @@
   {
     "id": "D4t4H0rd3r",
     "title": "The Data Hoarder",
-    "imageUrl": "/placeholder.svg",
+    "imageUrl": "/images/data-hoarder.webp",
     "imageAlt": "A stressed developer with stacks of old hard drives and boxes labeled 'Logs 1998-2005'",
     "flavorText": "I’ve got logs going back to the dial-up era. Trust me, we’ll need them someday.",
     "power": 3,
@@ -237,7 +237,7 @@
   {
     "id": "5l4ckSl4ck3r",
     "title": "Meme Lord",
-    "imageUrl": "/placeholder.svg",
+    "imageUrl": "/images/meme-lord.webp",
     "imageAlt": "A developer with an endless Slack feed, surrounded by meme-worthy notifications",
     "flavorText": "He's posted more cat GIFs than lines of code. #SoProductive",
     "power": 1,
@@ -260,6 +260,34 @@
         ]
       }
     ]
+  },
+  {
+		"id": "Imp0st3rSyndr0me",
+		"title": "The Imposter",
+		"imageUrl": "/images/the-imposter.webp",
+		"imageAlt": "A nervous developer hunched over a laptop, glancing anxiously at coworkers while code inexplicably compiles successfully",
+		"flavorText": "One day, they're going to notice everything I do is just well-disguised guesswork.",
+		"power": 1,
+		"toughness": 3,
+		"cost": 2,
+		"tags": ["Creature", "Developer"],
+		"abilities": [
+			{
+				"name": "Self-Doubt",
+				"description": [
+					"Whenever The Imposter tries to complete a Feature alone, flip a coin:",
+					"• Heads: The Feature miraculously completes without extra cost (they did better than they think).",
+					"• Tails: They freeze, spending an additional Time resource or skipping their next action."
+				]
+			},
+			{
+				"name": "Hidden Brilliance",
+				"description": [
+					"Once per game, if The Imposter receives support from any other Developer (e.g., code review or a 'Mentor' effect), they gain +2 power for that sprint and instantly remove one Bug from any Feature they worked on.",
+					"Afterward, The Imposter must be tapped (overwhelmed by both relief and surprise)."
+				]
+			}
+		]
   }
 ]
 

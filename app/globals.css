@@ -5,10 +5,11 @@
 @layer base {
   :root {
     /* Card sizing variables */
+    --card-aspect-multiplier: 4.5vw;
     --card-aspect-width: 4;
     --card-aspect-height: 6;
-    --card-width: calc(var(--card-aspect-width) * 5.5vw);
-    --card-height: calc(var(--card-aspect-height) * 5.5vw);
+    --card-width: calc(var(--card-aspect-width) * var(--card-aspect-multiplier));
+    --card-height: calc(var(--card-aspect-height) * var(--card-aspect-multiplier));
     --card-border-width: 0.75vw;
     --card-inner-border-width: 0.2vw;
     --card-aspect-ratio: calc(var(--card-height) / var(--card-width));
@@ -83,11 +84,6 @@
     --input: 217.2 32.6% 17.5%;
     --ring: 212.7 26.8% 83.9%;
 
-    /* New custom colors for the card game (dark mode) */
-    --card-border: 240 5% 26%;
-    --card-bg-from: 240 5% 13%;
-    --card-bg-to: 240 5% 6%;
-    --card-inner-border: 0 0% 30%;
 
     /* Scrollbar colors (dark mode) */
     --scrollbar-thumb: 240 5% 40%;
@@ -102,6 +98,9 @@
   body {
     @apply bg-background text-foreground;
   }
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-600;
+}
 }
 
 .font-permanent-marker {
@@ -119,26 +118,5 @@
 
 .card-aspect {
   aspect-ratio: var(--card-aspect-ratio);
-}
-
-/* Custom scrollbar styles for ScrollArea */
-.scrollarea-viewport::-webkit-scrollbar {
-  width: 6px;
-}
-
-.scrollarea-viewport::-webkit-scrollbar-track {
-  background: hsl(var(--scrollbar-track));
-  border-radius: 3px;
-}
-
-.scrollarea-viewport::-webkit-scrollbar-thumb {
-  background-color: hsl(var(--scrollbar-thumb));
-  border-radius: 3px;
-}
-
-/* For Firefox */
-.scrollarea-viewport {
-  scrollbar-width: thin;
-  scrollbar-color: hsl(var(--scrollbar-thumb)) hsl(var(--scrollbar-track));
 }
 
