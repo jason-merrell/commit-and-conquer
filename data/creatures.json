@@ -1,0 +1,265 @@
+[
+  {
+    "id": "Z8h4XqK92dL3TpNvWY7G",
+    "title": "Cowboy Coder",
+    "imageUrl": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/A558556B-EBB1-48C7-94C4-FB0856A363A2-ju20YNKA3Ie8C9sc2Tu083XMTKNUOs.png",
+    "imageAlt": "Excited cowboy coder shouting 'Ship it!' while surrounded by error messages",
+    "flavorText": "He draws commits from the hip and merges at high noon. If it runs, it rides!",
+    "power": 4,
+    "toughness": 2,
+    "cost": 3,
+    "tags": ["Creature", "Developer"],
+    "abilities": [
+      {
+        "name": "No Code Review Needed",
+        "description": [
+          "When The Cowboy Coder completes a Feature alone, reduce the time cost by 2.",
+          "However, that Feature gains a permanent \"Potential Bug\" token, which can later become an actual Bug if triggered by an opponent's sabotage or random draw."
+        ]
+      },
+      {
+        "name": "Glorious Quick Fix",
+        "description": [
+          "Once per sprint, you may tap The Cowboy Coder to instantly fix a single Bug—but if you do, you must reveal the top card of your deck. If it's another Bug, attach it immediately to a random Feature."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "V1mD1sc1pl3X9Y7Z",
+    "title": "VIM Disciple",
+    "imageUrl": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the-vim-disciple-BaPLaCRVMn0aTSn2xYSN7kYdLTyH0M.webp",
+    "imageAlt": "A programmer in distress wearing a VIM t-shirt, surrounded by sticky notes with VIM commands, sitting at a desk with multiple open books and a glowing screen showing VIM code",
+    "flavorText": "Wait, how do I quit again? Actually… let me just rebind everything.",
+    "power": 3,
+    "toughness": 3,
+    "cost": 2,
+    "tags": ["Creature", "Developer"],
+    "abilities": [
+      {
+        "name": "Insert Mode Lock",
+        "description": [
+          "Each sprint, if The VIM Disciple is \"tapped\", you must pay an extra Time resource to \"escape\". If you do not pay, The VIM Disciple remains tapped."
+        ]
+      },
+      {
+        "name": "One-Shot Mastery",
+        "description": [
+          "Once per game, if you invest multiple resources (e.g., Time + Morale) in a single turn, you unlock a \"VIM Mastery\" state for The VIM Disciple.",
+          "In VIM Mastery mode, The VIM Disciple gains a powerful buff—like fixing a Bug instantly or reducing the cost of multiple small actions in a single sprint—showing that once you really learn VIM commands, you can do everything lightning fast."
+        ]
+      },
+      {
+        "name": "Ever-Growing Config",
+        "description": [
+          "Whenever you attach a Tool or Framework card to The VIM Disciple (like new VIM plugins or custom macros), you may draw a card.",
+          "However, if you attach more than two in one sprint, you gain a \"Configuration Bloat\" token that either slows you down or increases the cost of future actions."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "RTsdfHJs24SDsgs",
+    "title": "Ancient One",
+    "imageUrl": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the-ancient-one-7bQbWxg359f6HUutDyi4IHJMpXTk9L.webp",
+    "imageAlt": "A wise programmer with a long grey beard and glowing code-reflecting glasses, wearing a brown hooded robe, sitting at an ancient FORTRAN computer surrounded by warning signs about touching COBOL code",
+    "flavorText": "I wrote this before Git existed. It's version-controlled in my head.",
+    "power": 1,
+    "toughness": 5,
+    "cost": 4,
+    "tags": ["Creature", "Developer"],
+    "abilities": [
+      {
+        "name": "The System Still Works",
+        "description": [
+          "As long as The Ancient One is in play, old features cannot be removed or rewritten unless a significant resource cost is paid.",
+          "However, legacy code systems gain stability buffs, making them harder to break or sabotage."
+        ]
+      },
+      {
+        "name": "That's Not How We Did It",
+        "description": [
+          "Whenever a younger developer plays a Tool or Framework card, there's a chance The Ancient One rejects it outright, forcing the player to discard it or pay an extra cost to justify the change.",
+          "If the younger dev convinces The Ancient One by spending extra Morale, they gain a permanent bonus (representing earned respect)."
+        ]
+      },
+      {
+        "name": "Ancient Wisdom, Occasional Grumpiness",
+        "description": [
+          "At the start of each sprint, you may draw a random card from the discard pile, representing deep-seated knowledge of old systems.",
+          "However, if an opponent plays a \"Modernization\" or \"Cloud Migration\" feature, The Ancient One loses morale (they hate change)."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "B00tc4mp3r",
+    "imageUrl": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bootcamp-graduate-NYA5W6CulNQXcNj1u2YY2fqpkXD9Ty.webp",
+    "imageAlt": "An enthusiastic bootcamp graduate with styled hair and goatee, wearing a teal hoodie with 'Hello World!' text, sitting at a desk with a sticker-covered laptop and surrounded by JavaScript syntax on whiteboards",
+    "title": "Bootcamp Graduate",
+    "flavorText": "I copied this from ChatGPT, but I totally understand it. Well... I kind of understand it. I think.",
+    "power": 1,
+    "toughness": 1,
+    "cost": 1,
+    "tags": ["Creature", "Developer"],
+    "abilities": [
+      {
+        "name": "Tutorial-Driven Development",
+        "description": [
+          "Whenever The Bootcamp Graduate attempts a Feature, flip a coin.",
+          "On heads, they complete it instantly, having found a perfect tutorial.",
+          "On tails, they get stuck and must spend an extra turn debugging Stack Overflow posts."
+        ]
+      },
+      {
+        "name": "Overconfident Refactor",
+        "description": [
+          "Once per game, The Bootcamp Graduate may refactor a completed Feature.",
+          "If successful, gain a small efficiency boost.",
+          "If unsuccessful, the Feature is broken and must be rebuilt from scratch."
+        ]
+      },
+      {
+        "name": "Endless Certifications",
+        "description": [
+          "For every Tool or Framework added to The Bootcamp Graduate, they gain a temporary +1 power for one turn.",
+          "However, if more than two are added in a single sprint, they become overwhelmed and lose their next action."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0v3rEng1n33r",
+    "title": "The Over-Engineer",
+    "imageUrl": "/placeholder.svg",
+    "imageAlt": "A frantic developer at a whiteboard drawing an overly complex system diagram with microservices for every function",
+    "flavorText": "Why build a simple function when you can build a distributed system with 27 microservices?",
+    "power": 2,
+    "toughness": 4,
+    "cost": 3,
+    "tags": ["Creature", "Developer"],
+    "abilities": [
+      {
+        "name": "Microservice Mania",
+        "description": [
+          "Whenever The Over-Engineer tackles a Feature, they may break it down into multiple smaller Features. Each smaller Feature grants +1 power for that sprint, but also requires double maintenance cost in later sprints."
+        ]
+      },
+      {
+        "name": "Golden Hammer",
+        "description": [
+          "Once per game, you may declare that a single solution you have solves all problems simultaneously. Immediately resolve one Feature for free—but attach a 'Tech Debt' token to each other Feature you own."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BusF4ct0r1",
+    "title": "The Single Point of Failure",
+    "imageUrl": "/placeholder.svg",
+    "imageAlt": "A lone engineer in a cluttered cubicle fortress, refusing to share any documentation",
+    "flavorText": "If I get hit by a bus, the entire company goes under. Actually, maybe I like that power…",
+    "power": 4,
+    "toughness": 3,
+    "cost": 3,
+    "tags": ["Creature", "Developer"],
+    "abilities": [
+      {
+        "name": "Exclusive Knowledge",
+        "description": [
+          "When The Single Point of Failure completes a Feature, attach a 'Locked In' token to it. That Feature can only be modified by The Single Point of Failure.",
+          "All other developers attempting to modify that Feature must pay double Time resources or discard a random card (they have no clue how it works)."
+        ]
+      },
+      {
+        "name": "Undocumented Chaos",
+        "description": [
+          "Once per game, you may tap The Single Point of Failure to discard an opponent’s Tool or Framework (claiming it’s incompatible).",
+          "Afterward, draw a card—representing a new black-box script you invented while nobody was looking."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "C5SZ34l0t",
+    "title": "CSS Zealot",
+    "imageUrl": "/placeholder.svg",
+    "imageAlt": "A developer meticulously adjusting a design with pixel rulers and color swatches everywhere",
+    "flavorText": "If it's not pixel-perfect, it's practically broken. #JustOneMore!important",
+    "power": 2,
+    "toughness": 2,
+    "cost": 3,
+    "tags": ["Creature", "Developer"],
+    "abilities": [
+      {
+        "name": "Global !important",
+        "description": [
+          "When The CSS Zealot is deployed, you may overwrite one Tool or Framework's effect with '!important'—negating its immediate downside or penalty, but doubling any future cost associated with that effect.",
+          "If an opponent tries to remove or alter this override, they must pay 1 extra Time resource (representing the headache of dealing with CSS specificity)."
+        ]
+      },
+      {
+        "name": "Pixel Perfection",
+        "description": [
+          "Once per game, The CSS Zealot may re-roll any design or layout outcome to achieve 'pixel-perfect' status, automatically succeeding in that part of a Feature.",
+          "However, if used, The CSS Zealot gains a 'Pedantic' token that forces them to skip their next sprint while they nitpick margins and color palettes."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "D4t4H0rd3r",
+    "title": "The Data Hoarder",
+    "imageUrl": "/placeholder.svg",
+    "imageAlt": "A stressed developer with stacks of old hard drives and boxes labeled 'Logs 1998-2005'",
+    "flavorText": "I’ve got logs going back to the dial-up era. Trust me, we’ll need them someday.",
+    "power": 3,
+    "toughness": 3,
+    "cost": 3,
+    "tags": ["Creature", "Developer"],
+    "abilities": [
+      {
+        "name": "Relics of Data Past",
+        "description": [
+          "Whenever you complete a Feature, you may attach a 'Historical Log' token to it (represented by boxes of dusty logs). Each 'Historical Log' increases that Feature's resistance to sabotage by 1.",
+          "However, if more than two 'Historical Log' tokens exist on the same Feature, it becomes 'Data Bloated,' and any attempts to modify or refactor it cost double Time."
+        ]
+      },
+      {
+        "name": "Analysis Paralysis",
+        "description": [
+          "Once per sprint, you may prevent an opponent from taking a new action by forcing them to 'analyze old data'—they skip their next move. You draw a card (fishing out more random data).",
+          "But if you do this more than twice in a game, The Data Hoarder becomes tapped for the following sprint (buried under 20 years of logs)."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5l4ckSl4ck3r",
+    "title": "Meme Lord",
+    "imageUrl": "/placeholder.svg",
+    "imageAlt": "A developer with an endless Slack feed, surrounded by meme-worthy notifications",
+    "flavorText": "He's posted more cat GIFs than lines of code. #SoProductive",
+    "power": 1,
+    "toughness": 3,
+    "cost": 2,
+    "tags": ["Creature", "Developer"],
+    "abilities": [
+      {
+        "name": "Instant @Channel",
+        "description": [
+          "Once per sprint, you may tap Meme Lord to force another Developer to skip their next action (they're dragged into a random Slack discussion).",
+          "If the target is a Manager, gain +1 Morale (nothing better than making a boss chase Slack threads)."
+        ]
+      },
+      {
+        "name": "Meme Over Productivity",
+        "description": [
+          "Whenever Meme Lord is untapped at the end of a sprint, place a 'Meme' token on them. For each 'Meme' token, reduce the time cost of social actions or team-building exercises by 1 (everyone's morale is artificially boosted).",
+          "However, each 'Meme' token also increases Meme Lord's future Feature completion time by 1 (they're too busy fueling the #random channel)."
+        ]
+      }
+    ]
+  }
+]
+
