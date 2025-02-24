@@ -86,6 +86,9 @@ export default function CreatureCard({ data }: CreatureCardProps) {
 						<div className="grow shrink-0 basis-0 min-h-0 relative bg-gradient-to-br from-amber-50 to-amber-100 rounded-md shadow-inner">
 							<ScrollArea className="h-full w-full [&_[data-radix-scroll-area-viewport]]:overscroll-none">
 								<div className="flex flex-col w-full p-[calc(var(--card-width)*0.04)] pb-[calc(var(--card-width)*0.08)]">
+									<p className="text-black text-[calc(var(--card-width)*0.03)] italic mb-[calc(var(--card-width)*0.02)]">
+										&quot;{flavorText}&quot;
+									</p>
 									{abilities &&
 										abilities.map((ability) => (
 											<div key={ability.name} className="mb-[calc(var(--card-width)*0.02)]">
@@ -106,12 +109,9 @@ export default function CreatureCard({ data }: CreatureCardProps) {
 												)}
 											</div>
 										))}
-									<p className="text-black text-[calc(var(--card-width)*0.03)] italic mt-[calc(var(--card-width)*0.02)]">
-										&quot;{flavorText}&quot;
-									</p>
 								</div>
 							</ScrollArea>
-							<div className="absolute bottom-1 right-1 bg-gradient-to-br from-amber-50 to-amber-100 rounded-lg shadow-[inset_0_1px_2px_rgba(0,0,0,0.3)] border border-amber-200 px-[calc(var(--card-width)*0.02)] translate-y-[85%] translate-x-[20%] h-[calc(var(--card-height)*0.05)] flex items-center justify-center text-center shadow shadow-[0px 0.08em 0.08em rgba(0, 0, 0, 0.5)]">
+							<div className="absolute bottom-1 right-1 bg-gradient-to-br from-amber-50 to-amber-100 rounded-lg shadow-[inset_0_1px_2px_rgba(0,0,0,0.3)] border border-amber-200 px-[calc(var(--card-width)*0.02)] translate-y-[85%] translate-x-[20%] h-[calc(var(--card-height)*0.05)] flex items-center justify-center text-center shadow-[0px 0.08em 0.08em rgba(0, 0, 0, 0.5)]">
 								<span className="text-black font-bold text-[calc(var(--card-width)*0.04)] leading-none">
 									{power}
 									<span className="font-normal mx-[calc(var(--card-width)*0.01)]">/</span>

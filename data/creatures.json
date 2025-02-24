@@ -288,6 +288,32 @@
 				]
 			}
 		]
+  },
+  {
+    "id": "keyboardenthusiast",
+    "title": "Keyboard Commando",
+    "imageUrl": "/images/keyboard-commando.webp",
+    "imageAlt": "A developer with a collection of mechanical keyboards, typing furiously on a custom-built 60% board",
+    "flavorText": "The real meta is 40% keyboards with split ortho-linear layouts… but you're not ready for that conversation.",
+    "power": 2,
+    "toughness": 2,
+    "cost": 2,
+    "tags": ["Creature", "Developer"],
+    "abilities": [
+      {
+        "name": "Custom Keybindings",
+        "description": [
+          "Whenever Keyboard Commando is deployed, you may attach a 'Custom Keybindings' token to them. This token can be used to reduce the cost of any action by 1 Time resource, but only if you can explain how it's related to keyboard shortcuts or keybindings."
+        ]
+      },
+      {
+        "name": "Mechanical Precision",
+        "description": [
+          "Once per game, you may tap Keyboard Commando to instantly complete a Feature that involves typing or text manipulation.",
+          "If you do, you must reveal the top card of your deck. If it's a Tool or Framework card, attach it to Keyboard Commando (representing a new keybinding or macro)."
+        ]
+      }
+    ]
   }
 ]
 
